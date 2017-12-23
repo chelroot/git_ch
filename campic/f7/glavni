@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+killall glav
+sleep 5
+killall glav
+
+
+while [ 1 = 1 ]
+do
+(( count++ ))
+
+
+##date +"%S-%N">> /home/vova/f7/1.txt
+/home/vova/f7/glav
+##date +"%S-%N">> /home/vova/f7/1.txt
+
+
+echo $count
+#echo "###"
+#date
+
+sleep 5
+done

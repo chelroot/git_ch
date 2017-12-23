@@ -1,0 +1,68 @@
+/*table.zebra {
+    border: 0 none;
+    margin: 0;
+    width: 100%;
+}
+
+table.zebra th {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #f5f5f5 0%, #dddddd 100%) repeat scroll 0 0;
+    border-bottom: 1px solid #bbbbbb;
+    color: #777777;
+    font-weight: normal;
+    padding: 2px 5px;
+    text-align: left;
+}
+
+table.zebra td {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    padding: 5px;
+    vertical-align: middle;
+}*/
+
+/* SERGII DAVYDOV */
+#campic-add-form .field .name { float: left; width: 155px; padding-top: 0.05em; padding-bottom: 10px; color: #888; font-size: 0.95em; font-family: 'Helvetica Neue', Arial, sans-serif;}
+#campic-add-form #campic_shop_campic_add_email { width: 30%; max-width: 200px; margin: 0;}
+#campic-add-form .hint { color: #aaa; font-size: 0.8em;}
+#campic-add-form #campic_shop_campic_add_description { min-width: 400px; height: 70px;}
+#campic-add-form .field .value { margin-left: 180px; margin-bottom: 5px; position: relative;}
+#campic-add-form .button { -moz-border-radius: 24px; -webkit-border-radius: 24px; border-radius: 24px; color: #111; text-shadow: 0 1px 1px #fff; font-weight: bold; border: 3px solid #ddd; -moz-box-shadow: -1px -1px 0 #444444 inset; -webkit-box-shadow: -1px -1px 0 #444444 inset; box-shadow: -1px -1px 0 #444444 inset; white-space: nowrap; font-size: 14px!important; line-height: 20px; height: 34px; padding: 2px 15px 3px; font-family: 'Helvetica Neue', Arial, sans-serif; background: rgb(255,255,255); background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(221,221,221,1))); background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(221,221,221,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 );}
+#campic-add,
+#campic-add .fields { margin-bottom: 10px; overflow: hidden;}
+/*.campic_table_m table.zebra th { text-align: left; padding: 2px 5px; border-bottom: 1px solid #BBBBBB; background: -moz-linear-gradient(center top, #F5F5F5 0%, #DDDDDD 100%) repeat scroll 0 0 transparent; -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F5F5F5', endColorstr='#dddddd')"; font-weight: normal; color: #777; background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(1, #ddd)); background-image: -o-linear-gradient(rgb(245,245,245),rgb(221,221,221));}
+.campic_table_m table.zebra td { padding: 5px; border: 0; vertical-align: middle; background: #fff;}
+.campic_table_m table.zebra tr:nth-child(odd) td { background: #f2f7ff;}
+* i.icon16 { text-decoration: none!important; vertical-align: top; margin: -0.1em 0.25em 0 0;}
+.campic_table_m table.zebra a { display: block; text-decoration: none; position: relative;}
+.campic_table_m .icon16.cross { background-position: -192px -16px;}
+.campic_table_m i.icon16 { background-repeat: no-repeat; background-image: url("../img/icon16.png"); height: 16px; width: 16px; display: inline-block; text-indent: -9999px; text-decoration: none!important; background-size: auto;}
+.campic_table_m .icon16.yes { background-position: 0 -16px;}
+.campic_table_m .icon16.delete { background-position: -96px -16px;}
+*/
+.button.blue { border-color: #0099ff;}
+a.button { color: #000000; padding: 4px 18px 6px; text-decoration: none;}
+.button { background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffffff 0%, #dddddd 100%) repeat scroll 0 0; border: 3px solid #dddddd; border-radius: 24px; box-shadow: -1px -1px 0 #444444 inset; color: #111111; font-family: "Helvetica Neue",Arial,sans-serif; font-size: 14px !important; font-weight: bold; height: 34px; line-height: 20px; padding: 2px 15px 3px; text-shadow: 0 1px 1px #ffffff; white-space: nowrap;}
+
+
+/*Igor Muravev*/
+.my h2 { color: #006bc3; font-size: 24px; font-weight: 500;}
+.campic-head-hint { background: #ffed4a none repeat scroll 0 0; border-radius: 4px; color: #006bc3; display: inline-block; font-size: 16px; font-weight: 700; padding: 5px 15px; margin-bottom: 0;}
+table.camera-custom { border-collapse: collapse; margin-bottom: 0;}
+.camera-custom tr { border-bottom: 2px solid #006bc3;}
+.camera-custom tr:last-child { border-bottom: 0 none;}
+.camera-custom th { background: #006bc3 none repeat scroll 0 0; color: #fff; font-size: 16px; font-weight: 400; padding: 10px 0; position: relative;}
+.camera-custom th i { background: rgba(0, 0, 0, 0) url("../img/Help.png") no-repeat scroll 0 0; border-radius: 50%; cursor: pointer; display: inline-block; height: 25px; margin-left: 5px; margin-top: -8px; padding: 1px; position: relative; top: 8px; width: 25px;}
+.camera-custom th i:hover { background: rgba(0, 0, 0, 0) url("../img/Help-hover.png") no-repeat scroll 0 0;}
+.camera-custom th i + span.hidden-cams-hint { background: #fff none repeat scroll 0 0; border-radius: 3px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); color: #000; font-size: 14px; left: 0; opacity: 0; padding: 5px; position: absolute; top: 35px; z-index: -1; -webkit-transition: opacity .2s linear; -o-transition: opacity .2s linear; transition: opacity .2s linear;}
+.camera-custom th i:hover + span.hidden-cams-hint,
+.camera-custom th i + span.hidden-cams-hint:hover { opacity: 1; z-index: 1; }
+.camera-custom td { border-right: 1px solid #006bc3; padding: 10px; vertical-align: top; position: relative;}
+.camera-custom td:last-child { border-right: 0 none;}
+.camera-custom td.img { padding: 0; vertical-align: middle;}
+.camera-custom td.img img{ z-index: 1; }
+.camera-custom td.img .refresh-btn { background: #ffdd00 none repeat scroll 0 0; border-radius: 3px; bottom: 5px; color: #000; display: block; font-size: 14px; font-weight: 600; left: 0; margin: 0 auto; padding: 10px 0; position: absolute; right: 0; text-align: center; text-decoration: none; width: 100px; z-index: 2; opacity: 0; -webkit-transition: opacity .2s linear; -o-transition:  opacity .2s linear; transition: opacity .2s linear;}
+.camera-custom td.img:hover .refresh-btn { opacity: 1;}
+.camera-custom td.img .refresh-btn:hover { color: #006bc3;}
+.camera-custom td.delete a { display: block; height: 50px; margin: 0 auto; width: 50px;}
+.camera-custom td.delete a i.delete { background: rgba(0, 0, 0, 0) url("../img/Delete-50.png") repeat scroll 0 0; display: block; height: 100%; width: 100%;}
+.camera-custom td.delete a:hover i.delete { background: rgba(0, 0, 0, 0) url("../img/Delete Filled-50.png") repeat scroll 0 0;}

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+    if
+
+    ps -ax | grep cycle1 |grep home   >> /dev/null
+
+    then
+#    /home/vova/f7/glavni
+#echo "выполнен перезапуск"
+date >>/home/campic/mybash/rabotaet.txt
+
+    else
+    /home/campic/mybash/cycle1
+#echo  "сервес работает"
+date >>/home/campic/mybash/restart.txt
+
+    fi
+
+sleep 5
+killall restart

@@ -1,0 +1,35 @@
+<style>
+    .campicCam {
+        padding: 4px;
+        float: left;
+        width: {$settings.cam_picture_width}px;
+    }
+</style>
+<div id="campic_cams">
+    {if empty($cams)}
+        [`No secure cams added`]
+    {else}
+        {foreach $cams as $cam}
+            {$cam.host = parse_url($cam.url)}
+            {$cam.host = $cam.host['host']}
+
+            <div class="campicCam">
+                {if $cam.strategy == 1}
+                <a class="fancybox" rel="group" href="{$cam.url}{$cam.user}.jpg">
+                    <img width="{$settings.cam_picture_width}" src="{$cam.url}{$cam.user}.jpg" />
+                </a>
+                {else}
+                    <a class="fancybox" rel="group" href="{$cam.url}{$cam.user}/{$cam.user}.jpg">
+                        <img width="{$settings.cam_picture_width}" src="{$cam.url}{$cam.user}/{$cam.user}.jpg" />
+                    </a>
+                {/if}
+            </div>
+        {/foreach}
+    {/if}
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>

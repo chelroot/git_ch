@@ -1,0 +1,28 @@
+#!/bin/bash
+
+
+
+cp -f /var/log/proftpd/xfer.log  /home/vova/xfer/log.txt
+rm -rf /var/log/proftpd/xfer.log
+
+for i in  `cat /tmp/userid.txt`
+
+do
+
+cat /home/vova/xfer/log.txt |grep "$i" | tail -1 > /home/vova/xfer/tail1.txt
+#tail -50 /var/log/proftpd/xfer.log |grep "$i" |grep .jpg | tail -1 > tail.txt
+
+BLAH=`cat /home/vova/xfer/tail1.txt`
+for ii in $BLAH
+do echo $ii  >> /home/vova/xfer/a1.txt
+done
+
+cat /home/vova/xfer/a1.txt | grep /home > /home/vova/xfer/a2.txt
+
+rm -rf /home/vova/xfer/a1.txt
+
+cp -f `cat /home/vova/xfer/a2.txt` /var/www/html/"$i".jpg
+
+
+done
+

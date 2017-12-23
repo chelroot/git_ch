@@ -1,0 +1,108 @@
+<p>
+    {if $edit == 0}
+        [`Add new server:`]
+    {else}
+        [`Edit server `]({$server.name})
+    {/if}
+</p>
+
+<form id="campic_servers_form" action="javascript:void(0);" method="post" onsubmit="$.wa.campic.saveServer(this)">
+    <div class="field-group">
+        <div class="field">
+            <div class="name">[`Server name`]</div>
+            <div class="value">
+                <input type="text" name="servers[name]" value="{if isset($server.name)}{$server.name|escape}{/if}" />
+                <br />
+                <span class="hint">
+                    [`The server name you need to for your convenience only. Here you can write anything you want.`]
+                </span>
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`FTP server type`]</div>
+            <div class="value">
+                <select name="servers[ftp_type]">
+                    <option value="proftpd" {if isset($server.ftp_type) && $server.ftp_type === 'proftpd'}selected="selected"{/if}>proftpd</option>
+                    <option value="vsftp" {if isset($server.ftp_type) && $server.ftp_type === 'vsftp'}selected="selected"{/if}>vsftp</option>
+                </select>
+                <br />
+                <span class="hint">
+                    [`Select the type of FTP server.`]
+                </span>
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Server url`]</div>
+            <div class="value">
+                <input type="text" name="servers[url]" value="{if isset($server.url)}{$server.url|escape}{/if}" />
+                <br />
+                <span class="hint">
+                    [`This is the address that corresponds to the home folder, which contains the user's files. Address must always end with a /`]
+                </span>
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Server path`]</div>
+            <div class="value">
+                <input type="text" name="servers[path]" value="{if isset($server.path)}{$server.path|escape}{/if}" />
+                <br />
+                <span class="hint">
+                    [`The path of the root folder FTP server. Path must always end with a /`]
+                </span>
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Server host`]</div>
+            <div class="value">
+                <input type="text" name="servers[host]" value="{if isset($server.host)}{$server.host|escape}{else}localhost{/if}"/>
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Server port`]</div>
+            <div class="value">
+                <input type="text" name="servers[port]" value="{if isset($server.port)}{$server.port|escape}{else}3306{/if}" />
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`User`]</div>
+            <div class="value">
+                <input type="text" name="servers[user]" value="{if isset($server.user)}{$server.user|escape}{/if}" />
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Password`]</div>
+            <div class="value">
+                <input type="text" name="servers[password]" value="{if isset($server.password)}{$server.password|escape}{/if}" />
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Database`]</div>
+            <div class="value">
+                <input type="text" name="servers[db]" value="{if isset($server.db)}{$server.db|escape}{/if}" />
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Type`]</div>
+            <div class="value">
+                <input type="text" name="servers[type]" value="{if isset($server.type)}{$server.type|escape}{else}mysqli{/if}" />
+            </div>
+        </div>
+        <div class="field">
+            <div class="name">[`Strategy`]</div>
+            <div class="value">
+                <select name="servers[strategy]">
+                    <option value="1" {if isset($server.strategy) && $server.strategy == 1}selected="selected"{/if}>[`Strategy 1`]</option>
+                    <option value="2" {if isset($server.strategy) && $server.strategy == 2}selected="selected"{/if}>[`Strategy 2`]</option>
+                </select>
+                <br />
+                <span class="hint">
+                    [`Strategy 1: <br>All images are in the same folder. Url camera image in this case looks like this: http://78.29.17.198/vova3-3.jpg <br><br>Strategy 2: <br>Each chamber is in its home folder. Url camera image in this case looks like this: http://78.29.17.198/vova3-3/vova3-3.jpg`]
+                </span>
+            </div>
+        </div>
+        <div class="field">
+            <input type="hidden" name="servers[id]" value="{if isset($server.id)}{intval($server.id)}{else}0{/if}">
+            <button id="campic_servers_form_savebutton" class="button">[`Save`]</button>
+        </div>
+    </div>
+</form>

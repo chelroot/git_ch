@@ -1,0 +1,39 @@
+#!/bin/bash
+
+
+
+
+for i in  g g2 k1 k2 kr n os p1 p2 v vt tb sp sk r1
+
+
+do
+
+
+ls /var/ftp/incoming/$i| grep 2 |sort -r > /tmp/"$i"d
+
+j=`head -1 /tmp/"$i"d`
+
+ls /var/ftp/incoming/$i/$j/001/jpg/ | sort -r > /tmp/"$i"ch
+
+ii=`head -1 /tmp/"$i"ch`
+
+ls /var/ftp/incoming/$i/$j/001/jpg/$ii | sort -r >/tmp/"$i"min
+
+jj=`head -1 /tmp/"$i"min`
+
+ls /var/ftp/incoming/$i/$j/001/jpg/$ii/$jj | sort -r >/tmp/"$i"pic
+
+
+
+cp -f --no-preserve=mode /var/ftp/incoming/$i/$j/001/jpg/$ii/$jj/`head -1 /tmp/"$i"pic` /var/www/html/foto/$i.jpg
+
+
+
+
+done
+
+
+
+
+
+

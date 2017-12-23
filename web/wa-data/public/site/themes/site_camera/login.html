@@ -1,0 +1,13 @@
+<style>
+	#under-header { display: none; }
+</style>
+<div id="page" class="login-page" role="main">
+    <h1>[s`Login`]</h1>
+    {$wa->authAdapters()}
+    {$wa->loginForm($error, empty($without_form))}
+</div>
+<script>
+  $(function() {
+    $('.wa-auth-adapters > p').text('Авторизуйтесь воспользовавшись перечисленными выше сервисами или указав свои контактные данные');
+  });
+</script>

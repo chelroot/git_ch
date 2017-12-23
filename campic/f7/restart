@@ -1,0 +1,20 @@
+#!/bin/bash
+
+    if
+
+    ps -ax | grep glavni |grep home   >> /dev/null
+
+    then
+#    /home/vova/f7/glavni
+#echo "выполнен перезапуск"
+date >>/home/vova/f7/rabonaet.txt
+
+    else
+    /home/vova/f7/glavni
+#echo  "сервес работает"
+date >>/home/vova/f7/restart.txt
+
+    fi
+
+sleep 5
+killall restart

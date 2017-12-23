@@ -1,0 +1,38 @@
+{if empty($cams)}
+    [`No secure cams added`]
+{else}
+    <table class="zebra">
+        <tr>
+            <th width="10%">[`Num`]</th>
+            <th width="20%">[`User`]</th>
+            <th width="20%">[`Password`]</th>
+            <th width="25%">[`Url`]</th>
+            <th width="20%">[`Ftp`]</th>
+            <th width="5%">[`Delete`]</th>
+        </tr>
+
+        {foreach $cams as $cam}
+            {$cam.host = parse_url($cam.url)}
+            {$cam.host = $cam.host['host']}
+
+            <tr>
+                <td>{if isset($cam.cam_num)}{$cam.cam_num}{/if}</td>
+                <td>{$cam.user}</td>
+                <td>{$cam.password}</td>
+                <td>
+                    {if $cam.strategy == 1}
+                        <a href="{$cam.url}{$cam.user}.jpg" target="_blank">{$cam.url}{$cam.user}.jpg</a>
+                    {else}
+                        <a href="{$cam.url}{$cam.user}/{$cam.user}.jpg" target="_blank">{$cam.url}{$cam.user}/{$cam.user}.jpg</a>
+                    {/if}
+                </td>
+                <td>
+                    <a href="ftp://{$cam.user}:{$cam.password}@{$cam.host}" target="_blank">ftp://{$cam.user}:{$cam.password}@{$cam.host}</a>
+                </td>
+                <td>
+                    <a href="javascript:void(0);" onclick="$.Campic.deletecam({$cam.id});"><i class="icon16 delete"></i></a>
+                </td>
+            </tr>
+        {/foreach}
+    </table>
+{/if}

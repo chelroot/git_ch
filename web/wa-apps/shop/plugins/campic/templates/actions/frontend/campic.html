@@ -1,0 +1,38 @@
+<div class="my">
+<link type="text/css" rel="stylesheet" href="{$wa_app_static_url}plugins/campic/css/campic.css?{time()}">
+<script type="text/javascript" src="{$wa_app_static_url}plugins/campic/js/campic.js?{time()}"></script>
+{$wa->globals('isMyAccount', true)}
+{$wa->myNav('menu-h bottom-padded')}
+{* <h2>[`Secure cams`]</h2> *}
+<h2>[`My secure cams`]</h2>
+<p class="campic-head-hint">[`Full table of your cams. You may add or delete cams.`]</p>
+
+<div id="campic_cams" class="campic_table_m"  style="border: 2px solid #006bc3; border-radius: 5px; margin-top: 10px; width: 90%">
+    {include file="./cams.html" inline}
+</div>
+<p style="margin-top: 20px;">
+    <a href="javascript:void(0);" class="button blue" onclick="$.Campic.addcam();">[`Add a new cam`]</a>
+    <a href="javascript:void(0);" class="button blue" onclick="$.Campic.getcams();">[`Refresh cams from the `]{$server}</a>
+</p>
+<style>
+/*#campic_cams tr a[href^="http"]{ position: relative; }*/
+/*.popup { background: #fff none repeat scroll 0 0; border-radius: 3px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); display: block; height: 175px; overflow: hidden; position: absolute; width: 240px; z-index: 1; }*/
+/*.popup img{ max-width: 100%; }*/
+</style>
+<script>
+    // $(document).ready(function() {
+    //   $('#campic_cams tr a[href^="http"]').hover(function() {
+    //       var self = $(this);
+    //       var url = self.attr("href");
+    //       var popup = self.after('<div class="popup"><img src='+url+' /></div>');
+    //   }, function() {
+    //       $('.popup').hide().remove();
+    //   });
+    //   return false;
+    // });
+    $.Campic.shop_url = '{$shop_url}';
+    $.Campic.local = {
+        shure: '[`Are you sure?`]'
+    };
+</script>
+</div>

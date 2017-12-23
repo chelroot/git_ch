@@ -1,0 +1,33 @@
+#!/bin/bash
+
+
+
+
+for i in  `cat 1.txt`
+
+
+do
+
+
+tail -50 /var/log/proftpd/xfer.log |grep "$i" |grep .jpg | tail -1 > tail.txt
+
+BLAH=`cat tail.txt`
+for ii in $BLAH
+do echo $ii  >> a1.txt
+done
+
+cat a1.txt | grep /home > a2.txt
+
+rm -rf a1.txt
+
+cp -f `cat a2.txt` /var/www/html/"$i".jpg
+
+
+
+done
+
+
+
+
+
+

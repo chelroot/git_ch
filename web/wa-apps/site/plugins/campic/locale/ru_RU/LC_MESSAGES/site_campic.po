@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: site/plugins/campic\n"
+"POT-Creation-Date: 2015-11-28 18:23+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: site/plugins/campic <vova@salomatin.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n"
+"%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:2
+msgid "No secure cams added"
+msgstr "Не добавлено ни одной камеры"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:6
+msgid "Num"
+msgstr "Номер"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:7
+msgid "User"
+msgstr "Пользователь"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:8
+msgid "Password"
+msgstr "Пароль"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:9
+msgid "Url"
+msgstr "Адрес"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:10
+msgid "Delete"
+msgstr "Удалить"
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlCams.html:7
+msgid "Add a new cam"
+msgstr "Добавить камеру"
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlCams.html:8
+msgid "Refresh cams from the "
+msgstr "Обновить камеры из "
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlToken.html:2
+msgid "For get the token require simple registration at "
+msgstr "Для получения токена пройдите простую регистрацию на "
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlToken.html:7
+msgid "Get the Campic access token"
+msgstr "Получить токен"
+
+#: /wa-apps/site/plugins/campic/lib/actions/siteCampicPluginBackendAddcam.controller.php:73
+#: /wa-apps/site/plugins/campic/lib/actions/siteCampicPluginBackendGetcams.controller.php:73
+msgid "Wrong token"
+msgstr "Не верный токен"
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:5
+msgid "Hide"
+msgstr "Спрятать"
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:6
+msgid "Hides"
+msgstr "Прячет"
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:10
+msgid "Campic Token"
+msgstr "Токен"
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:11
+msgid ""
+"Access token for usage Campic service. Follow the link to get a new Campic "
+"Token."
+msgstr ""
+"Токен доступа для использования сервиса. Пройдите по ссылке, чтобы получить "
+"новый токен."
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:15
+msgid "Secure cams"
+msgstr "Камеры наблюдения"
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:16
+msgid "It shows all secure cams."
+msgstr "Покажет все камеры."

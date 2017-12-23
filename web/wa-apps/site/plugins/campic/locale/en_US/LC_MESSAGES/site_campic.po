@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: site/plugins/campic\n"
+"POT-Creation-Date: 2015-11-28 18:23+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: site/plugins/campic <vova@salomatin.ru >\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:2
+msgid "No secure cams added"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:6
+msgid "Num"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:7
+msgid "User"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:8
+msgid "Password"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:9
+msgid "Url"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/Cams.html:10
+msgid "Delete"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlCams.html:7
+msgid "Add a new cam"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlCams.html:8
+msgid "Refresh cams from the "
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlToken.html:2
+msgid "For get the token require simple registration at "
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/templates/SettingsCustomControlToken.html:7
+msgid "Get the Campic access token"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/actions/siteCampicPluginBackendAddcam.controller.php:73
+#: /wa-apps/site/plugins/campic/lib/actions/siteCampicPluginBackendGetcams.controller.php:73
+msgid "Wrong token"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:5
+msgid "Hide"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:6
+msgid "Hides"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:10
+msgid "Campic Token"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:11
+msgid ""
+"Access token for usage Campic service. Follow the link to get a new Campic "
+"Token."
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:15
+msgid "Secure cams"
+msgstr ""
+
+#: /wa-apps/site/plugins/campic/lib/config/settings.php:16
+msgid "It shows all secure cams."
+msgstr ""

@@ -1,0 +1,18 @@
+<div class="page" role="main">
+    {if  isset($page.container)}
+        <div class="container">
+    {/if}
+    <!-- navigation breadcrumbs -->
+    {* {if !empty($breadcrumbs)}
+        <div class="breadcrumbs">
+            {foreach $breadcrumbs as $breadcrumb}
+                <a href="{$breadcrumb.url}">{$breadcrumb.name|escape}</a> <span class="rarr">&rarr;</span>
+            {/foreach}
+        </div>
+    {/if}
+    <h1>{$page.name}</h1> *}
+    {$page.content}
+    {if isset($page.container)}
+        </div>
+    {/if}
+</div>

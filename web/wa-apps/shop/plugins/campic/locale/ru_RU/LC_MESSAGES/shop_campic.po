@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shop/plugins/campic\n"
+"POT-Creation-Date: 2016-02-25 23:20+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: shop/plugins/campic <covoxx@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n"
+"%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:2
+msgid "No secure cams added"
+msgstr "Нет камер видеонаблюдения"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:6
+msgid "Num"
+msgstr "Номер"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:7
+msgid "User"
+msgstr "Пользователь"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:8
+msgid "Password"
+msgstr "Пароль"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:9
+msgid "Url"
+msgstr "Адрес"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:10
+msgid "Ftp"
+msgstr "Сервер FTP"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:11
+msgid "Delete"
+msgstr "Удалить"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/my_tab.html:2
+#: /wa-apps/shop/plugins/campic/lib/actions/frontend/shopCampicPluginFrontendShow.action.php:38
+#: /wa-apps/shop/plugins/campic/lib/config/plugin.php:3
+msgid "Secure cams"
+msgstr "Камеры наблюдения"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/campic.html:10
+msgid "Add a new cam"
+msgstr "Добавить камеру"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/campic.html:11
+msgid "Refresh cams from the "
+msgstr "Обновить камеры из "
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/campic.html:17
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: /wa-apps/shop/plugins/campic/lib/actions/frontend/shopCampicPluginFrontendAddcam.controller.php:61
+#: /wa-apps/shop/plugins/campic/lib/actions/frontend/shopCampicPluginFrontendGetcams.controller..php:59
+#: /wa-apps/shop/plugins/campic/lib/actions/frontend/shopCampicPluginFrontendDeletecam.controller..php:60
+msgid "Access denied"
+msgstr "Доступ запрещен"
+
+#: /wa-apps/shop/plugins/campic/lib/config/plugin.php:3
+msgid "Cam pictures"
+msgstr "Камеры наблюдения"
+
+#: /wa-apps/shop/plugins/campic/lib/config/plugin.php:4
+msgid "Personal cabinet for secure cams"
+msgstr "Личный кабинет для камер наблюдения"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/campic.html:7
+msgid "My secure cams"
+msgstr "Мои камеры видеонаблюдения"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/campic.html:8
+msgid "Full table of your cams. You may add or delete cams."
+msgstr ""
+"Это полная таблица ваших камер видеонаблюдения. Здесь вы можете добавлять "
+"или удалять камеры."
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:13
+msgid "Cams"
+msgstr "Камеры"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:14
+msgid "Settings"
+msgstr "Настройки"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:16
+msgid "Url for site"
+msgstr "Ссылки для сайта"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:17
+msgid "Download"
+msgstr "Скачать"
+
+#: /wa-apps/shop/plugins/campic/templates/actions/frontend/cams.html:20
+msgid "FTP Server"
+msgstr "Сервер FTP"

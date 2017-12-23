@@ -1,0 +1,14 @@
+<script type="text/javascript" src="{$wa_url}wa-apps/site/plugins/campic/js/campic-settings.js"></script>
+<script>
+    $.Campic.local = {
+        shure: '[`Are you sure?`]'
+    };
+</script>
+
+<div id="campic_cams" class="block" style="border: 1px solid #ccc; margin-top: 10px; width: 90%">
+    {include file="./Cams.html" inline}
+</div>
+<p style="margin-top: 20px;">
+    <a href="javascript:void(0);" class="button blue" onclick="$.Campic.addcam();">[`Add a new cam`]</a>
+    <a href="javascript:void(0);" class="button blue" onclick="$.Campic.getcams();">[`Refresh cams from the `]{$server}</a>
+</p>

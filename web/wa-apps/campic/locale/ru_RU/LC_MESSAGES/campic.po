@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: campic\n"
+"POT-Creation-Date: 2015-11-14 18:36+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: campic <covoxx@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n"
+"%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:21
+msgid "Hello world"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:26
+msgid "Navigation"
+msgstr "Навигация"
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:29
+msgid "Menu item 1"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:32
+msgid "Menu item 2"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:35
+msgid "Menu item 3"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:44
+msgid "Woohoo, Webasyst app is ready!"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:3
+msgid "Add new server:"
+msgstr "Добавить новый сервер"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:5
+msgid "Edit server "
+msgstr "Редактировать сервер "
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:12
+msgid "Server name"
+msgstr "Имя сервера"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:18
+msgid "Server url"
+msgstr "Адрес сервера"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:23
+msgid ""
+"This is the address that corresponds to the home folder, which contains the "
+"user's files. Address must always end with a /"
+msgstr ""
+"Это адрес, которому соответствует домашняя папка, в которой находятся "
+"пользовательские файлы. Адрес всегда должен заканчиваться символом /"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:28
+msgid "Server host"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:34
+msgid "Server port"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:40
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:8
+msgid "User"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:46
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:9
+msgid "Password"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:52
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:10
+msgid "Database"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:58
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:11
+msgid "Type"
+msgstr "Тип"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers_form.html:65
+msgid "Save"
+msgstr "Сохранить"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:4
+msgid "Name"
+msgstr "Имя"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:5
+msgid "Url"
+msgstr "Адрес"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:6
+msgid "Host"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:7
+msgid "Port"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:12
+msgid "Busy"
+msgstr "Загружен"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:13
+msgid "Edit"
+msgstr "Ред."
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:14
+msgid "Delete"
+msgstr "Удалить"
+
+#: /wa-apps/campic/templates/actions/settings/Ftp_servers.html:19
+msgid "No servers available. Add at least one server."
+msgstr "Нет ни одного сервера. Добавьте хотя бы один."
+
+#: /wa-apps/campic/templates/actions/settings/Settings_page.html:2
+#: /wa-apps/campic/templates/actions/backend/Backend.html:35
+msgid "Settings"
+msgstr "Настройки"
+
+#: /wa-apps/campic/templates/actions/settings/Servers_page.html:2
+msgid "Servers"
+msgstr "Серверы"
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:24
+msgid "Main"
+msgstr "Главная"
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:32
+msgid "FTP Servers"
+msgstr "Серверы FTP"
+
+#: /wa-apps/campic/templates/actions/backend/Backend.html:43
+msgid "Main tab"
+msgstr "Главная вкладка"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:64
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers.html:12
+msgid "Strategy"
+msgstr "Стратегия"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:67
+msgid "Strategy 1"
+msgstr "Стратегия 1"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:68
+msgid "Strategy 2"
+msgstr "Стратегия 2"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:77
+msgid "Strategy 1: <br /"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:77
+msgid "Strategy 1: <br"
+msgstr ""
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:75
+msgid ""
+"Strategy 1: <br>All images are in the same folder. Url camera image in this "
+"case looks like this: http://78.29.17.198/vova3-3.jpg <br><br>Strategy 2: "
+"<br>Each chamber is in its home folder. Url camera image in this case looks "
+"like this: http://78.29.17.198/vova3-3/vova3-3.jpg"
+msgstr ""
+"Стратегия 1:<br>Все изображения находятся в одной папке. Url изображения "
+"камеры в таком случае выглядит примерно так: http://78.29.17.198/vova3-3."
+"jpg<br><br>Стратегия 2:<br>Каждая камера находится в своей домашней папке. "
+"Url изображения камеры в таком случае выглядит примерно так: "
+"http://78.29.17.198/vova3-3/vova3-3.jpg"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:17
+msgid ""
+"The server name you need to for your convenience only. Here you can write "
+"anything you want."
+msgstr ""
+"Имя сервера нужно только для нашего удобства. Здесь можно писать все, что "
+"угодно."
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:32
+msgid "Server path"
+msgstr "Путь на сервере"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:37
+msgid "The path of the root folder FTP server."
+msgstr "Путь корневой папки фтп сервера. "
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers.html:6
+msgid "Path"
+msgstr "Путь"
+
+#: /wa-apps/campic/templates/actions/servers/Ftp_servers_form.html:37
+msgid "The path of the root folder FTP server. Path must always end with a /"
+msgstr ""
+"Путь корневой папки фтп сервера.  Путь всегда должен заканчиваться символом /"
+
+#: /wa-apps/campic/templates/actions/settings/Settings_page.html:7
+msgid "Dump"
+msgstr "Помойка"
+
+#: /wa-apps/campic/templates/actions/settings/Settings_page.html:10
+msgid "Dump off"
+msgstr "Помойка выключена"
+
+#: /wa-apps/campic/templates/actions/settings/Settings_page.html:11
+msgid "Dump on"
+msgstr "Помойка включена"
+
+#: /wa-apps/campic/templates/actions/settings/Settings_page.html:15
+msgid ""
+"If a dump is enabled, all files from all the cameras fall down in a heap. "
+"Home folder will not be created."
+msgstr ""
+"Если помойка включена, то все файлы со всех камер валятся в одну кучу. "
+"Домашние папки не будут созданы."

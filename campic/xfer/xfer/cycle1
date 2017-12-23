@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+killall dodo
+sleep 5
+killall dodo
+
+
+while [ 1 = 1 ]
+do
+(( count++ ))
+
+
+#date +"%S-%N">> /home/campic/mybash/1.txt
+/home/campic/mybash/dodo
+#date +"%S-%N">> /home/campic/mybash/1.txt
+
+
+echo $count
+#echo "###"
+#date
+
+sleep 5
+done

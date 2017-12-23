@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE theme PUBLIC "wa-app-theme" "http://www.webasyst.com/wa-content/xml/wa-app-theme.dtd">
+<theme id="site_camera" system="0" vendor="" author="wanws.ru" app="site" version="1.0" edition="1">
+  <name locale="en_US">site_camera</name>
+  <name locale="ru_RU">site_camera</name>
+  <description locale="ru_RU"/>
+  <files>
+    <file path="index.html" custom="0" modified="1">
+      <description locale="en_US">Core layout of the site_camera theme family</description>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="site_camera.css" custom="0" modified="1">
+      <description locale="en_US">Core CSS of the site_camera theme family</description>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="site_camera.js" custom="0">
+      <description locale="en_US">JS</description>
+      <description locale="ru_RU">JS</description>
+    </file>
+    <file path="content.html" custom="0">
+      <description locale="en_US">Main layout for the Site app content</description>
+      <description locale="ru_RU">Основной вывод приложения «Сайт»</description>
+    </file>
+    <file path="head.html" custom="0">
+      <description locale="en_US">Site app's &lt;head&gt; instructions</description>
+      <description locale="ru_RU">Блок &lt;head&gt; приложения «Сайт»</description>
+    </file>
+    <file path="page.html" custom="0" modified="1">
+      <description locale="en_US">Static page content and navigation</description>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="login.html" custom="0">
+      <description locale="en_US">Login page</description>
+      <description locale="ru_RU">Страница входа для пользователей</description>
+    </file>
+    <file path="signup.html" custom="0">
+      <description locale="en_US">Sign up page</description>
+      <description locale="ru_RU">Страница регистрации пользователей</description>
+    </file>
+    <file path="forgotpassword.html" custom="0">
+      <description locale="en_US">Forgot password page</description>
+      <description locale="ru_RU">Страница сброса пароля</description>
+    </file>
+    <file path="my.profile.html">
+      <description locale="en_US">My profile: contact info editing form</description>
+      <description locale="ru_RU">Личный кабинет: редактирование контактной информации</description>
+    </file>
+    <file path="my.nav.html">
+      <description locale="en_US">My profile navigation</description>
+      <description locale="ru_RU">Навигационное меню внутри личного кабинета</description>
+    </file>
+    <file path="error.html" custom="0">
+      <description locale="en_US">404 and other errors</description>
+      <description locale="ru_RU">404 и другие ошибки</description>
+    </file>
+  </files>
+  <about locale="en_US"/>
+  <about locale="ru_RU"/>
+  <settings>
+    <setting var="phone" control_type="text">
+      <value>+7 (351) 777-7777</value>
+      <name locale="ru_RU">Телефон</name>
+      <name locale="en_US">Phone</name>
+    </setting>
+  </settings>
+</theme>

@@ -1,0 +1,65 @@
+#!/bin/bash
+
+
+
+
+for i in  vova3-2 vova3-3
+
+
+do
+
+
+ls /home/campic/web/wa-data/public/campic/cams/$i > /var/www/html/"$i"n.html
+
+y=`head -1 /var/www/html/"$i"n.html`
+
+ls /home/campic/web/wa-data/public/campic/cams/$i/$y | sort -r > /var/www/html/"$i"d1.html
+
+head -1 /var/www/html/"$i"d1.html > /var/www/html/"$i"d.html
+
+j=`head -1 /var/www/html/"$i"d.html`
+
+ls /home/campic/web/wa-data/public/campic/cams/$i/$y/$j/001/jpg/ | sort -r > /var/www/html/"$i"h1.html
+
+head -1 /var/www/html/"$i"h1.html > /var/www/html/"$i"h.html
+
+ii=`head -1 /var/www/html/"$i"h.html`
+
+ls /home/campic/web/wa-data/public/campic/cams/$i/$y/$j/001/jpg/$ii | sort -r >/var/www/html/"$i"m1.html
+
+head -1 /var/www/html/"$i"m1.html > /var/www/html/"$i"m.html
+
+head -2 /var/www/html/"$i"m1.html | tail -1 > /var/www/html/"$i"m2.html
+
+#ls /var/www/html/"$i"m2.html | wc -l > /var/www/html/"$i"m3.html
+
+jj=`head -1 /var/www/html/"$i"m.html`
+
+jjj=`head -1 /var/www/html/"$i"m2.html`
+
+ls /home/campic/web/wa-data/public/campic/cams/$i/$y/$j/001/jpg/$ii/$jj | sort -r >/var/www/html/"$i"p1.html
+
+head -1 /var/www/html/"$i"p1.html > /var/www/html/"$i"p.html
+
+cp -f --no-preserve=mode /home/campic/web/wa-data/public/campic/cams/$i/$y/$j/001/jpg/$ii/$jj/`head -1 /var/www/html/"$i"p.html` /var/www/html/$i.jpg
+
+ls /home/campic/web/wa-data/public/campic/cams/$i/$y/$j/001/jpg/$ii/$jjj | wc -l >/var/www/html/"$i"p2.html
+
+echo `cat /var/www/html/a``echo ""$i"n.html"`\
+`cat /var/www/html/a1``echo ""$i"d.html"`\
+`cat /var/www/html/a2``echo ""$i"h.html"`\
+`cat /var/www/html/a3``echo ""$i"m.html"`\
+`cat /var/www/html/a4``echo ""$i"p2.html"`\
+`cat /var/www/html/a5``echo ""$i"p.html"`\
+`cat /var/www/html/a6``echo ""$i".jpg"`\
+`cat /var/www/html/a7``echo ""$i".jpg"`\
+`cat /var/www/html/a8` > /var/www/html/"$i"i.php
+
+
+done
+
+
+
+
+
+

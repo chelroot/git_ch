@@ -1,0 +1,55 @@
+<table class="zebra">
+    <tr>
+        <th width="8%">ID</th>
+        <th width="10%">[`Name`]</th>
+        <th width="10%">[`FTP Type`]</th>
+        <th width="15%">[`Url`]</th>
+        <th width="10%">[`Path`]</th>
+        <th width="7%">[`Host`]</th>
+        <th width="4%">[`Port`]</th>
+        <th width="5%">[`User`]</th>
+        <th width="10%">[`Password`]</th>
+        <th width="5%">[`Database`]</th>
+        <th width="5%">[`Type`]</th>
+        <th width="5%">[`Strategy`]</th>
+        <th width="2%">[`Busy`]</th>
+        <th width="2%">[`Edit`]</th>
+        <th width="2%">[`Delete`]</th>
+    </tr>
+    {if empty($servers)}
+        <tr>
+            <td colspan="14">
+                [`No servers available. Add at least one server.`]
+            </td>
+        </tr>
+    {/if}
+    {foreach $servers as $server}
+        <tr>
+            <td>{$server.id}</td>
+            <td>{$server.name}</td>
+            <td>{$server.ftp_type}</td>
+            <td>{$server.url}</td>
+            <td>{$server.path}</td>
+            <td>{$server.host}</td>
+            <td>{$server.port}</td>
+            <td>{$server.user}</td>
+            <td>{$server.password}</td>
+            <td>{$server.db}</td>
+            <td>{$server.type}</td>
+            <td>{$server.strategy}</td>
+            <td>
+                {if $server.busy == 0}
+                    <a href="javascript:void(0);" onclick="$.wa.campic.busyServer({$server.id})">
+                        <i class="icon16 status-green"></i>
+                    </a>
+                {else}
+                    <a href="javascript:void(0);" onclick="$.wa.campic.busyServer({$server.id})">
+                        <i class="icon16 status-red"></i>
+                    </a>
+                {/if}
+            </td>
+            <td><a href="javascript:void(0);" onclick="$.wa.campic.editServer({$server.id})"><i class="icon16 edit"></i></a</td>
+            <td><a href="javascript:void(0);" onclick="$.wa.campic.deleteServer({$server.id})"><i class="icon16 delete"></i></a></td>
+        </tr>
+    {/foreach}
+</table>

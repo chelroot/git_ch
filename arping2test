@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+date > /home/vova/arping.txt
+#NET=10.0.0
+NET=192.168.0
+
+
+i=1
+y=0
+while [ $i -le 254 ];
+do
+
+    if
+arping2 -c 1  $NET.$i | grep bytes >> /dev/null
+    then
+let y=$y+1
+MAC=`arping2 -c 1 $NET.$i | grep bytes | cut -d ' ' -f  4`
+IP=`arping2 -c 1 $NET.$i | grep bytes | cut -d ' ' -f  5`
+NAME=`cat /etc/dhcp/dhcpd.conf | grep $NET.$i | head -1  | cut -d ' ' -f  2`
+echo  $i "zanyit"
+echo $y $MAC $IP $NAME   >> /home/vova/arping.txt
+    else
+echo $i "svoboden"
+    fi
+i=$[$i+1];
+done

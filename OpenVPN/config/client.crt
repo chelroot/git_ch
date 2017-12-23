@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=RU, ST=Chelyabinskaya oblast, L=Chelyabinks, O=Gamma, OU=changeme, CN=server/name=server/emailAddress=admin@goodwork74.ru
+        Validity
+            Not Before: Sep 14 06:04:13 2017 GMT
+            Not After : Sep 12 06:04:13 2027 GMT
+        Subject: C=RU, ST=Chelyabinskaya oblast, L=Chelyabinks, O=Gamma, OU=changeme, CN=client/name=server/emailAddress=admin@goodwork74.ru
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:c7:80:bd:85:26:a8:2f:86:fe:94:4e:b3:7b:9b:
+                    53:38:50:e8:2b:96:d4:4d:63:30:ad:6e:8c:3c:a7:
+                    86:92:47:f1:98:d1:29:8b:2d:96:3c:f8:5f:29:1e:
+                    0e:fd:85:cb:ca:93:59:08:d4:21:05:3c:77:44:43:
+                    73:30:92:c1:f2:b6:b1:f9:e4:e4:34:02:30:40:d9:
+                    7c:d0:7b:72:75:96:9c:04:e5:87:96:fe:17:b6:1b:
+                    35:f3:40:22:2e:d5:f2:b4:17:26:2d:ec:15:52:90:
+                    00:76:aa:54:bb:94:34:ce:87:2d:77:20:b1:d3:d8:
+                    6b:62:2a:d0:cd:07:96:11:4b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                2A:6C:6F:AD:D4:88:7A:D6:67:33:A8:CB:1C:F5:E5:47:37:9D:68:B3
+            X509v3 Authority Key Identifier: 
+                keyid:5A:7C:01:A4:0F:9D:7B:CC:86:FF:15:1C:D4:10:E7:B1:24:7B:41:25
+                DirName:/C=RU/ST=Chelyabinskaya oblast/L=Chelyabinks/O=Gamma/OU=changeme/CN=server/name=server/emailAddress=admin@goodwork74.ru
+                serial:FA:3B:88:8A:05:F5:FB:B5
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         36:3f:bb:26:36:d5:d2:a2:3d:fc:4b:10:37:63:6c:91:8b:14:
+         60:54:03:98:25:58:8b:e5:59:98:b7:44:ec:96:28:48:0c:f6:
+         bf:3a:72:e8:d5:cf:40:16:17:18:ec:ab:89:37:22:07:8a:b0:
+         64:89:97:5c:12:72:ef:de:52:cf:e6:31:2c:89:b4:17:58:bc:
+         b9:4c:de:c3:00:96:60:0d:77:28:55:b8:4a:6f:14:c6:dc:91:
+         11:a3:7d:aa:a5:6b:69:1d:60:75:45:6c:31:02:ef:72:58:2d:
+         9e:82:70:a2:33:25:b4:88:c5:9e:9a:4d:a5:e9:6f:ef:cf:cb:
+         67:c5
+-----BEGIN CERTIFICATE-----
+MIIENTCCA56gAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBrDELMAkGA1UEBhMCUlUx
+HjAcBgNVBAgTFUNoZWx5YWJpbnNrYXlhIG9ibGFzdDEUMBIGA1UEBxMLQ2hlbHlh
+Ymlua3MxDjAMBgNVBAoTBUdhbW1hMREwDwYDVQQLEwhjaGFuZ2VtZTEPMA0GA1UE
+AxMGc2VydmVyMQ8wDQYDVQQpEwZzZXJ2ZXIxIjAgBgkqhkiG9w0BCQEWE2FkbWlu
+QGdvb2R3b3JrNzQucnUwHhcNMTcwOTE0MDYwNDEzWhcNMjcwOTEyMDYwNDEzWjCB
+rDELMAkGA1UEBhMCUlUxHjAcBgNVBAgTFUNoZWx5YWJpbnNrYXlhIG9ibGFzdDEU
+MBIGA1UEBxMLQ2hlbHlhYmlua3MxDjAMBgNVBAoTBUdhbW1hMREwDwYDVQQLEwhj
+aGFuZ2VtZTEPMA0GA1UEAxMGY2xpZW50MQ8wDQYDVQQpEwZzZXJ2ZXIxIjAgBgkq
+hkiG9w0BCQEWE2FkbWluQGdvb2R3b3JrNzQucnUwgZ8wDQYJKoZIhvcNAQEBBQAD
+gY0AMIGJAoGBAMeAvYUmqC+G/pROs3ubUzhQ6CuW1E1jMK1ujDynhpJH8ZjRKYst
+ljz4XykeDv2Fy8qTWQjUIQU8d0RDczCSwfK2sfnk5DQCMEDZfNB7cnWWnATlh5b+
+F7YbNfNAIi7V8rQXJi3sFVKQAHaqVLuUNM6HLXcgsdPYa2Iq0M0HlhFLAgMBAAGj
+ggFjMIIBXzAJBgNVHRMEAjAAMC0GCWCGSAGG+EIBDQQgFh5FYXN5LVJTQSBHZW5l
+cmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFCpsb63UiHrWZzOoyxz15Uc3nWiz
+MIHhBgNVHSMEgdkwgdaAFFp8AaQPnXvMhv8VHNQQ57Eke0EloYGypIGvMIGsMQsw
+CQYDVQQGEwJSVTEeMBwGA1UECBMVQ2hlbHlhYmluc2theWEgb2JsYXN0MRQwEgYD
+VQQHEwtDaGVseWFiaW5rczEOMAwGA1UEChMFR2FtbWExETAPBgNVBAsTCGNoYW5n
+ZW1lMQ8wDQYDVQQDEwZzZXJ2ZXIxDzANBgNVBCkTBnNlcnZlcjEiMCAGCSqGSIb3
+DQEJARYTYWRtaW5AZ29vZHdvcms3NC5ydYIJAPo7iIoF9fu1MBMGA1UdJQQMMAoG
+CCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQsFAAOBgQA2P7smNtXS
+oj38SxA3Y2yRixRgVAOYJViL5VmYt0TslihIDPa/OnLo1c9AFhcY7KuJNyIHirBk
+iZdcEnLv3lLP5jEsibQXWLy5TN7DAJZgDXcoVbhKbxTG3JERo32qpWtpHWB1RWwx
+Au9yWC2egnCiMyW0iMWemk2l6W/vz8tnxQ==
+-----END CERTIFICATE-----
